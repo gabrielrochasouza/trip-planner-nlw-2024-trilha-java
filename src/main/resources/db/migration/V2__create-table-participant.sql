@@ -1,5 +1,5 @@
 CREATE TABLE participants (
-    id UUID default RANDOM_UUID() PRIMARY KEY,
+    id UUID default uuid_generate_v4() PRIMARY KEY,
     name VARCHAR(255) not null,
     email VARCHAR(255) not null,
     is_confirmed BOOLEAN not null default false,

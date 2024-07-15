@@ -18,4 +18,4 @@ To check the endpoints of the application access this <a href="https://trip-plan
 
 To test the endpoints in insomnia download this <a href="https://github.com/gabrielrochasouza/trip-planner-nlw-2024-trilha-java/blob/main/Insomnia_2024-07-15.json">file</a>
 
-<img src="certificate.pdf" />
+<img src="certificate.png" />

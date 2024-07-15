@@ -1,0 +1,518 @@
+{
+  "_type":"export",
+  "__export_format":4,
+  "__export_date":"2024-07-15T03:59:22.896Z",
+  "__export_source":"insomnia.desktop.app:v9.3.1",
+  "resources":[
+    {
+      "_id":"req_b8ac8cdb2f4741819087ad77d2a15278",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015813477,
+      "created":1720986893652,
+      "url":"{{base_url}}/trips/tripid",
+      "name":"Recupera detalhes da viagem",
+      "description":"",
+      "method":"GET",
+      "body":{
+
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893652,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "parentId":null,
+      "modified":1720986865895,
+      "created":1720986865895,
+      "name":"Rocketseat NLW 2024 java",
+      "description":"",
+      "scope":"collection",
+      "_type":"workspace"
+    },
+    {
+      "_id":"req_adc2b9cc87364197b96ac51b80125598",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015885426,
+      "created":1720986939896,
+      "url":"{{base_url}}/trips/f0f2925a-668b-4e4b-a1e9-069e876d9126/participants",
+      "name":"Recupera participantes da viagem",
+      "description":"",
+      "method":"GET",
+      "body":{
+
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893602,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"req_9333b3536f09450ca3b6aae7726d9436",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015820854,
+      "created":1720986959500,
+      "url":"{{base_url}}/trips/tripid/confirm",
+      "name":"Confirma viagem",
+      "description":"",
+      "method":"GET",
+      "body":{
+
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893552,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"req_55b30e2e45a44bfca557399643cad169",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015826546,
+      "created":1720990226180,
+      "url":"{{base_url}}/trips/d54bf336-bf13-48f5-8552-a3badbc6adcd/activities",
+      "name":"Consulta todas as atividades da viagem",
+      "description":"",
+      "method":"GET",
+      "body":{
+
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893527,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"req_12006545b5f84284a99424a5034490e9",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015831653,
+      "created":1720991873055,
+      "url":"{{base_url}}/trips/e0c05732-f77a-4f9f-a9fa-d276e42d418a/links",
+      "name":"Consulta todas os links da viagem",
+      "description":"",
+      "method":"GET",
+      "body":{
+
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893514.5,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"req_10acc3cc9d304ffa8c3383b69619d0d3",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015835955,
+      "created":1720986973564,
+      "url":"{{base_url}}/participants/6b382345-3b05-4f71-813c-9443c295d4f7/confirm",
+      "name":"Confirma participante",
+      "description":"",
+      "method":"POST",
+      "body":{
+        "mimeType":"application/json",
+        "text":"{\n\t\"name\": \"Gabriel\"\n}"
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"Content-Type",
+          "value":"application/json"
+        },
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893502,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"req_df5470ea67984c5582b07ccea758de42",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015840340,
+      "created":1720987004144,
+      "url":"{{base_url}}/participant/participantid/confirm",
+      "name":"Convida participante",
+      "description":"",
+      "method":"POST",
+      "body":{
+
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893452,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"req_32951475c99440c59cda69f02b090482",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015847703,
+      "created":1720987014457,
+      "url":"{{base_url}}/trips",
+      "name":"Criação de viagem",
+      "description":"",
+      "method":"POST",
+      "body":{
+        "mimeType":"application/json",
+        "text":"{\n\t\"owner_name\": \"Gabriel\",\n\t\"owner_email\": \"grs@gmail.com\",\n\t\"starts_at\": \"2024-07-14T20:00:43.098Z\",\n\t\"ends_at\": \"2024-07-14T20:00:43.098Z\",\n\t\"emails_to_invite\": [\n\t\t\"grs2@gmail.com\",\n\t\t\"grs3@gmail.com\",\n\t\t\"grs4@gmail.com\",\n\t\t\"grs5@gmail.com\"\n\t],\n\t\"destination\": \"Florianópolis\"\n}"
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"Content-Type",
+          "value":"application/json"
+        },
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893402,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"req_72cc2df19c874b879652caf27191a453",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015851971,
+      "created":1720989256925,
+      "url":"{{base_url}}/trips/d54bf336-bf13-48f5-8552-a3badbc6adcd/activities",
+      "name":"Criação de atividade",
+      "description":"",
+      "method":"POST",
+      "body":{
+        "mimeType":"application/json",
+        "text":"{\n\t\"title\": \"Visita ao Cristo\",\n\t\"occurs_at\": \"2024-07-14T20:00:43.098Z\"\n}"
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"Content-Type",
+          "value":"application/json"
+        },
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893377,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"req_7cc8d589d2c548699f66133925a6c756",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015856802,
+      "created":1720991843237,
+      "url":"{{base_url}}/trips/e0c05732-f77a-4f9f-a9fa-d276e42d418a/links",
+      "name":"Criação de link",
+      "description":"",
+      "method":"POST",
+      "body":{
+        "mimeType":"application/json",
+        "text":"{\n\t\"title\": \"API\",\n\t\"url\": \"http://localhost:8080/\"\n}"
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"Content-Type",
+          "value":"application/json"
+        },
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893364.5,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"req_bed3e5bb14d447408c96d081182155a4",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015860794,
+      "created":1720987062976,
+      "url":"{{base_url}}/trips",
+      "name":"Atualização de viagem de viagem",
+      "description":"",
+      "method":"PUT",
+      "body":{
+        "mimeType":"application/json",
+        "text":"{\n\t\n}"
+      },
+      "parameters":[
+
+      ],
+      "headers":[
+        {
+          "name":"Content-Type",
+          "value":"application/json"
+        },
+        {
+          "name":"User-Agent",
+          "value":"insomnia/9.3.1"
+        }
+      ],
+      "authentication":{
+
+      },
+      "metaSortKey":-1720986893352,
+      "isPrivate":false,
+      "pathParameters":[
+
+      ],
+      "settingStoreCookies":true,
+      "settingSendCookies":true,
+      "settingDisableRenderRequestBody":false,
+      "settingEncodeUrl":true,
+      "settingRebuildPath":true,
+      "settingFollowRedirects":"global",
+      "_type":"request"
+    },
+    {
+      "_id":"env_8c9622f9b67017a015544a2503741321782ac718",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1721015654056,
+      "created":1720986865898,
+      "name":"Base Environment",
+      "data":{
+        "base_url":"https://trip-planner-nlw-2024-trilha-java.onrender.com"
+      },
+      "dataPropertyOrder":{
+        "&":[
+          "base_url"
+        ]
+      },
+      "color":null,
+      "isPrivate":false,
+      "metaSortKey":1720986865898,
+      "_type":"environment"
+    },
+    {
+      "_id":"jar_8c9622f9b67017a015544a2503741321782ac718",
+      "parentId":"wrk_ae71a5469dc1447a85d343523f06e3a4",
+      "modified":1720986865900,
+      "created":1720986865900,
+      "name":"Default Jar",
+      "cookies":[
+
+      ],
+      "_type":"cookie_jar"
+    },
+    {
+      "_id":"env_1c07acfd15b6402f9e66061a8bc1470c",
+      "parentId":"env_8c9622f9b67017a015544a2503741321782ac718",
+      "modified":1721015733400,
+      "created":1721015661297,
+      "name":"Local Environment",
+      "data":{
+        "base_url":"http://localhost:8080"
+      },
+      "dataPropertyOrder":{
+        "&":[
+          "base_url"
+        ]
+      },
+      "color":"#d11f1f",
+      "isPrivate":false,
+      "metaSortKey":1721015661297,
+      "_type":"environment"
+    },
+    {
+      "_id":"env_ce2043749c65457389f38cffff853443",
+      "parentId":"env_8c9622f9b67017a015544a2503741321782ac718",
+      "modified":1721015741910,
+      "created":1721015677875,
+      "name":"Homol Environment",
+      "data":{
+        "base_url":"https://trip-planner-nlw-2024-trilha-java.onrender.com"
+      },
+      "dataPropertyOrder":{
+        "&":[
+          "base_url"
+        ]
+      },
+      "color":"#01f411",
+      "isPrivate":false,
+      "metaSortKey":1721015677875,
+      "_type":"environment"
+    }
+  ]
+}

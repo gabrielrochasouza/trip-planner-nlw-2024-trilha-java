@@ -6,4 +6,13 @@ It was developed using java with spring.
 
 In this application you can send emails to the participants to confirm the trip;
 
+This application was deployed on render, using docker;
+
+It also uses a postgres database from render to store the data;
+
+<a href="https://trip-planner-nlw-2024-trilha-java.onrender.com/">API Deployed Link</a>
+
+## Documentation
+
+To check the endpoints of the application access this <a href="https://trip-planner-nlw-2024-trilha-java.onrender.com/swagger-ui/index.html">link</a>
 
